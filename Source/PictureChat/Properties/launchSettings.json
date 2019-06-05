@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "PictureChat": {
+      "commandName": "Project"
+    },
+    "encodeParams": {
+      "commandName": "Project",
+      "commandLineArgs": "-encrypt 29.jpg \"Hello form 29.jpg!\" 29-encrypted.jpg"
+    },
+    "decrypt": {
+      "commandName": "Project",
+      "commandLineArgs": "-d 29-encrypted.jpg"
+    }
+  }
+}
